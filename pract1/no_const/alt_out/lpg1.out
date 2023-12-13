@@ -1,0 +1,371 @@
+
+
+NUMERIC_THREATS_MODE: 0
+
+; Command line: lpg -o dom_robots.pddl -f prob1_robots.pddl -n 3   
+
+
+Parsing domain file:  domain 'ROBOTS' defined ... done.
+Parsing problem file:  problem 'PROBROBOTS' defined ... done.
+
+
+
+Modality: Incremental Planner
+
+Number of actions             :      88
+Number of conditional actions :       0
+Number of facts               :      22
+
+
+Analyzing Planning Problem:
+	Temporal Planning Problem: NO
+	Numeric Planning Problem: NO
+	Problem with Timed Initial Literals: NO
+	Problem with Derived Predicates: NO
+
+Evaluation function weights:
+     Action duration 0.00; Action cost 1.00
+
+
+Computing mutex... done
+
+Preprocessing total time: 0.00 seconds
+
+Searching ('.' = every 50 search steps):
+ solution found: 
+ first_solution_cpu_time: 0.03 
+Solution number: 1
+Total time:      0.03
+Search time:     0.03
+Actions:         26
+Duration:        23.000
+Plan quality:    26.000 
+Total Num Flips: 40
+     Plan file:       plan_prob1_robots.pddl_1.SOL Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+..... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+... found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+...... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+... found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. solution found: 
+Solution number: 2
+Total time:      0.74
+Search time:     0.74
+Actions:         24
+Duration:        18.000
+Plan quality:    24.000 
+Total Num Flips: 10328
+     Plan file:       plan_prob1_robots.pddl_2.SOL Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+..... found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+... found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+..... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+... found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+... found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+....... found solution of bad quality. Restart using stored plan
+........ found solution of bad quality. Restart using null plan
+.......... found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+........ found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+..... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+..... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+... found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+...... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. found solution of bad quality. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+..... found solution of bad quality. Restart using stored plan
+... found solution of bad quality.
+
+Searching ('.' = every 50 search steps):
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using stored plan
+.. found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.. solution found: 
+
+Plan computed:
+   Time: (ACTION) [action Duration; action Cost]
+ 0.0000: (PICK-EMPTY-CUP ROB2 R3 HR CH) [D:1.00; C:1.00]
+ 0.0000: (PICK-EMPTY-CUP ROB2 R3 HL CH) [D:1.00; C:1.00]
+ 0.0000: (MOVE-ROBOT ROB1 R1 PAS) [D:1.00; C:1.00]
+ 1.0000: (MOVE-ROBOT ROB2 R3 PAS) [D:1.00; C:1.00]
+ 2.0000: (EXCHANGE-EMPTY ROB2 ROB1 PAS HR HL) [D:1.00; C:1.00]
+ 2.0000: (EXCHANGE-EMPTY ROB2 ROB1 PAS HL HR) [D:1.00; C:1.00]
+ 3.0000: (MOVE-ROBOT ROB1 PAS R1) [D:1.00; C:1.00]
+ 4.0000: (FULFILL-CUP ROB1 R1 HL TM) [D:1.00; C:1.00]
+ 4.0000: (FULFILL-CUP ROB1 R1 HR TM) [D:1.00; C:1.00]
+ 5.0000: (MOVE-ROBOT ROB1 R1 R2) [D:1.00; C:1.00]
+ 6.0000: (SERVE ROB1 P3 HL R2) [D:1.00; C:1.00]
+ 6.0000: (SERVE ROB1 P1 HR R2) [D:1.00; C:1.00]
+ 7.0000: (MOVE-ROBOT ROB1 R2 R1) [D:1.00; C:1.00]
+ 8.0000: (FULFILL-CUP ROB1 R1 HL TM) [D:1.00; C:1.00]
+ 8.0000: (FULFILL-CUP ROB1 R1 HR TM) [D:1.00; C:1.00]
+ 9.0000: (MOVE-ROBOT ROB1 R1 PAS) [D:1.00; C:1.00]
+ 10.0000: (EXCHANGE-FULL ROB1 ROB2 PAS HL HR) [D:1.00; C:1.00]
+ 11.0000: (MOVE-ROBOT ROB2 PAS R3) [D:1.00; C:1.00]
+ 12.0000: (SERVE ROB2 P2 HR R3) [D:1.00; C:1.00]
+ 13.0000: (MOVE-ROBOT ROB2 R3 PAS) [D:1.00; C:1.00]
+ 14.0000: (EXCHANGE-FULL ROB1 ROB2 PAS HR HL) [D:1.00; C:1.00]
+ 15.0000: (MOVE-ROBOT ROB2 PAS R4) [D:1.00; C:1.00]
+ 16.0000: (SERVE ROB2 P4 HL R4) [D:1.00; C:1.00]
+
+
+Solution number: 3
+Total time:      4.09
+Search time:     4.09
+Actions:         23
+Duration:        17.000
+Plan quality:    23.000 
+Total Num Flips: 63682
+     Plan file:       plan_prob1_robots.pddl_3.SOL
+

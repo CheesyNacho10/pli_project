@@ -1,0 +1,119 @@
+
+
+NUMERIC_THREATS_MODE: 0
+
+; Command line: lpg -o dom_robots.pddl -f prob2_robots.pddl -n 3   
+
+
+Parsing domain file:  domain 'ROBOTS' defined ... done.
+Parsing problem file:  problem 'PROBROBOTS' defined ... done.
+
+
+
+Modality: Incremental Planner
+
+Number of actions             :     188
+Number of conditional actions :       0
+Number of facts               :      31
+
+
+Analyzing Planning Problem:
+	Temporal Planning Problem: NO
+	Numeric Planning Problem: NO
+	Problem with Timed Initial Literals: NO
+	Problem with Derived Predicates: NO
+
+Evaluation function weights:
+     Action duration 0.00; Action cost 1.00
+
+
+Computing mutex... done
+
+Preprocessing total time: 0.01 seconds
+
+Searching ('.' = every 50 search steps):
+........... search limit exceeded. Restart using null plan
+............. search limit exceeded. Restart using null plan
+............... search limit exceeded. Restart using null plan
+.................. search limit exceeded. Restart using null plan
+..................... search limit exceeded. Restart using null plan
+...... solution found: 
+ first_solution_cpu_time: 0.72 
+Solution number: 1
+Total time:      0.72
+Search time:     0.71
+Actions:         172
+Duration:        167.000
+Plan quality:    172.000 
+Total Num Flips: 4308
+     Plan file:       plan_prob2_robots.pddl_1.SOL Restart using null plan
+........... search limit exceeded. Restart using stored plan
+. solution found: 
+Solution number: 2
+Total time:      0.85
+Search time:     0.84
+Actions:         36
+Duration:        34.000
+Plan quality:    36.000 
+Total Num Flips: 4944
+     Plan file:       plan_prob2_robots.pddl_2.SOL Restart using stored plan
+........... search limit exceeded.
+
+Searching ('.' = every 50 search steps):
+........... search limit exceeded. Restart using stored plan
+............. search limit exceeded. Restart using stored plan
+............... search limit exceeded. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+..... found solution of bad quality. Restart using stored plan
+........... search limit exceeded. Restart using null plan
+............. search limit exceeded. Restart using stored plan
+. solution found: 
+
+Plan computed:
+   Time: (ACTION) [action Duration; action Cost]
+ 0.0000: (PICK-EMPTY-CUP ROB2 R3 HL CH) [D:1.00; C:1.00]
+ 0.0000: (MOVE-ROBOT ROB3 R2 PAS) [D:1.00; C:1.00]
+ 1.0000: (MOVE-ROBOT ROB2 R3 R4) [D:1.00; C:1.00]
+ 2.0000: (MOVE-ROBOT ROB2 R4 PAS) [D:1.00; C:1.00]
+ 3.0000: (EXCHANGE-EMPTY ROB2 ROB3 PAS HL HR) [D:1.00; C:1.00]
+ 4.0000: (MOVE-ROBOT ROB3 PAS R1) [D:1.00; C:1.00]
+ 5.0000: (FULFILL-CUP ROB3 R1 HR TM) [D:1.00; C:1.00]
+ 6.0000: (MOVE-ROBOT ROB3 R1 PAS) [D:1.00; C:1.00]
+ 7.0000: (EXCHANGE-FULL ROB3 ROB2 PAS HR HL) [D:1.00; C:1.00]
+ 8.0000: (MOVE-ROBOT ROB2 PAS R4) [D:1.00; C:1.00]
+ 9.0000: (SERVE ROB2 P4 HL R4) [D:1.00; C:1.00]
+ 10.0000: (MOVE-ROBOT ROB2 R4 PAS) [D:1.00; C:1.00]
+ 11.0000: (EXCHANGE-EMPTY ROB2 ROB3 PAS HL HR) [D:1.00; C:1.00]
+ 12.0000: (MOVE-ROBOT ROB3 PAS R1) [D:1.00; C:1.00]
+ 13.0000: (FULFILL-CUP ROB3 R1 HR TM) [D:1.00; C:1.00]
+ 14.0000: (EXCHANGE-FULL ROB3 ROB1 R1 HR HL) [D:1.00; C:1.00]
+ 15.0000: (EXCHANGE-FULL ROB1 ROB3 R1 HL HR) [D:1.00; C:1.00]
+ 16.0000: (EXCHANGE-FULL ROB3 ROB1 R1 HR HL) [D:1.00; C:1.00]
+ 17.0000: (EXCHANGE-FULL ROB1 ROB3 R1 HL HR) [D:1.00; C:1.00]
+ 18.0000: (EXCHANGE-FULL ROB3 ROB1 R1 HR HL) [D:1.00; C:1.00]
+ 19.0000: (MOVE-ROBOT ROB1 R1 R2) [D:1.00; C:1.00]
+ 19.0000: (MOVE-ROBOT ROB3 R1 PAS) [D:1.00; C:1.00]
+ 20.0000: (SERVE ROB1 P1 HL R2) [D:1.00; C:1.00]
+ 21.0000: (MOVE-ROBOT ROB1 R2 R1) [D:1.00; C:1.00]
+ 22.0000: (FULFILL-CUP ROB1 R1 HL TM) [D:1.00; C:1.00]
+ 23.0000: (MOVE-ROBOT ROB1 R1 R2) [D:1.00; C:1.00]
+ 24.0000: (SERVE ROB1 P3 HL R2) [D:1.00; C:1.00]
+ 25.0000: (MOVE-ROBOT ROB1 R2 PAS) [D:1.00; C:1.00]
+ 26.0000: (MOVE-ROBOT ROB1 PAS R1) [D:1.00; C:1.00]
+ 27.0000: (FULFILL-CUP ROB1 R1 HL TM) [D:1.00; C:1.00]
+ 28.0000: (MOVE-ROBOT ROB1 R1 PAS) [D:1.00; C:1.00]
+ 29.0000: (EXCHANGE-FULL ROB1 ROB3 PAS HL HR) [D:1.00; C:1.00]
+ 30.0000: (EXCHANGE-FULL ROB3 ROB2 PAS HR HL) [D:1.00; C:1.00]
+ 31.0000: (MOVE-ROBOT ROB2 PAS R3) [D:1.00; C:1.00]
+ 32.0000: (SERVE ROB2 P2 HL R3) [D:1.00; C:1.00]
+
+
+Solution number: 3
+Total time:      1.61
+Search time:     1.60
+Actions:         35
+Duration:        33.000
+Plan quality:    35.000 
+Total Num Flips: 9627
+     Plan file:       plan_prob2_robots.pddl_3.SOL
+

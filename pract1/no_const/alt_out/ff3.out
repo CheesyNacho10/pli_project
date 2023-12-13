@@ -1,0 +1,11 @@
+
+ff: parsing domain file
+domain 'ROBOTS' defined
+ ... done.
+ff: parsing problem file
+problem 'PROBROBOTS' defined
+ ... done.
+
+
+ff: goal can be simplified to FALSE. No plan will solve it
+

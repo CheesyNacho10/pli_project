@@ -1,0 +1,79 @@
+
+
+NUMERIC_THREATS_MODE: 0
+
+; Command line: lpg -o dom_robots.pddl -f prob_robots.pddl -n 2 -timesteps   
+
+
+Parsing domain file:  domain 'ROBOTS' defined ... done.
+Parsing problem file:  problem 'PROBROBOTS' defined ... done.
+
+
+
+Modality: Incremental Planner
+
+Number of actions             :      84
+Number of conditional actions :       0
+Number of facts               :      20
+
+
+Analyzing Planning Problem:
+	Temporal Planning Problem: NO
+	Numeric Planning Problem: NO
+	Problem with Timed Initial Literals: NO
+	Problem with Derived Predicates: NO
+
+Evaluation function weights:
+     Action duration 1.00; Action cost 0.00
+
+
+Computing mutex... done
+
+Preprocessing total time: 0.02 seconds
+
+Searching ('.' = every 50 search steps):
+ solution found: 
+ first_solution_cpu_time: 0.04 
+Solution number: 1
+Total time:      0.04
+Search time:     0.02
+Actions:         16
+Duration:        15.000
+Plan quality:    16.000 
+Total Num Flips: 21
+     Plan file:       plan_prob_robots.pddl_1.SOL Restart using stored plan
+..... found solution of bad quality. Restart using stored plan
+.... found solution of bad quality. Restart using null plan
+.......... search limit exceeded. Restart using stored plan
+.......... search limit exceeded. Restart using stored plan
+... found solution of bad quality. Restart using null plan
+ solution found: 
+
+Plan computed:
+   Time: (ACTION) [action Duration; action Cost]
+ 0.0000: (MOVE-ROBOT ROB1 R1 PAS) [D:1.00; C:1.00]
+ 0.0000: (PICK-EMPTY-CUP ROB2 R3 HR CH) [D:1.00; C:1.00]
+ 1.0000: (MOVE-ROBOT ROB2 R3 PAS) [D:1.00; C:1.00]
+ 2.0000: (EXCHANGE-EMPTY ROB2 ROB1 PAS HR HL) [D:1.00; C:1.00]
+ 3.0000: (MOVE-ROBOT ROB1 PAS R2) [D:1.00; C:1.00]
+ 4.0000: (MOVE-ROBOT ROB1 R2 R1) [D:1.00; C:1.00]
+ 5.0000: (FULFILL-CUP ROB1 R1 HL TM) [D:1.00; C:1.00]
+ 6.0000: (MOVE-ROBOT ROB1 R1 R2) [D:1.00; C:1.00]
+ 7.0000: (SERVE ROB1 P1 HL R2) [D:1.00; C:1.00]
+ 8.0000: (MOVE-ROBOT ROB1 R2 R1) [D:1.00; C:1.00]
+ 9.0000: (FULFILL-CUP ROB1 R1 HL TM) [D:1.00; C:1.00]
+ 10.0000: (MOVE-ROBOT ROB1 R1 PAS) [D:1.00; C:1.00]
+ 11.0000: (EXCHANGE-FULL ROB1 ROB2 PAS HL HR) [D:1.00; C:1.00]
+ 12.0000: (MOVE-ROBOT ROB2 PAS R3) [D:1.00; C:1.00]
+ 13.0000: (SERVE ROB2 P2 HR R3) [D:1.00; C:1.00]
+
+
+Solution number: 2
+Total time:      0.07
+Search time:     0.05
+Actions:         15
+Duration:        14.000
+Plan quality:    15.000 
+Total Num Flips: 1722
+     Plan file:       plan_prob_robots.pddl_2.SOL
+

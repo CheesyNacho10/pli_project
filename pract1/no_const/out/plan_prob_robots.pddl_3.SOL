@@ -1,0 +1,26 @@
+
+; Version LPG-td-1.0
+; Seed 8439815
+; Command line: lpg -o dom_robots.pddl -f prob_robots.pddl -n 3 
+; Problem prob_robots.pddl
+; Actions having STRIPS duration
+; Time 0.12
+; Search time 0.12
+; Parsing time 0.00
+; Mutex time 0.00
+; NrActions 14
+
+0:   (PICK-EMPTY-CUP ROB2 R3 HL CH) [1]
+0:   (MOVE-ROBOT ROB1 R1 PAS) [1]
+1:   (MOVE-ROBOT ROB2 R3 PAS) [1]
+2:   (EXCHANGE-EMPTY ROB2 ROB1 PAS HL HR) [1]
+3:   (MOVE-ROBOT ROB1 PAS R1) [1]
+4:   (FULFILL-CUP ROB1 R1 HR TM) [1]
+5:   (MOVE-ROBOT ROB1 R1 R2) [1]
+6:   (SERVE ROB1 P1 HR R2) [1]
+7:   (MOVE-ROBOT ROB1 R2 R1) [1]
+8:   (FULFILL-CUP ROB1 R1 HR TM) [1]
+9:   (MOVE-ROBOT ROB1 R1 PAS) [1]
+10:   (EXCHANGE-FULL ROB1 ROB2 PAS HR HL) [1]
+11:   (MOVE-ROBOT ROB2 PAS R3) [1]
+12:   (SERVE ROB2 P2 HL R3) [1]

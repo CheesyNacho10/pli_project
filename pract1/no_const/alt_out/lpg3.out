@@ -1,0 +1,18 @@
+
+
+NUMERIC_THREATS_MODE: 0
+
+; Command line: lpg -o dom_robots.pddl -f prob3_robots.pddl -n 3   
+
+
+Parsing domain file:  domain 'ROBOTS' defined ... done.
+Parsing problem file:  problem 'PROBROBOTS' defined ... done.
+
+
+
+Modality: Incremental Planner
+
+
+Goals of the planning problem can not be reached.
+Please try to run with '-inst_with_contraddicting_objects'
+

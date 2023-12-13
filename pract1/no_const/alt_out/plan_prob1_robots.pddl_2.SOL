@@ -1,0 +1,36 @@
+
+; Version LPG-td-1.0
+; Seed 20924252
+; Command line: lpg -o dom_robots.pddl -f prob1_robots.pddl -n 3 
+; Problem prob1_robots.pddl
+; Actions having STRIPS duration
+; Time 0.74
+; Search time 0.74
+; Parsing time 0.00
+; Mutex time 0.00
+; NrActions 24
+
+0:   (PICK-EMPTY-CUP ROB2 R3 HR CH) [1]
+0:   (PICK-EMPTY-CUP ROB2 R3 HL CH) [1]
+0:   (MOVE-ROBOT ROB1 R1 PAS) [1]
+1:   (MOVE-ROBOT ROB2 R3 R4) [1]
+2:   (MOVE-ROBOT ROB2 R4 PAS) [1]
+3:   (EXCHANGE-EMPTY ROB2 ROB1 PAS HR HL) [1]
+3:   (EXCHANGE-EMPTY ROB2 ROB1 PAS HL HR) [1]
+4:   (MOVE-ROBOT ROB1 PAS R1) [1]
+5:   (FULFILL-CUP ROB1 R1 HL TM) [1]
+5:   (FULFILL-CUP ROB1 R1 HR TM) [1]
+6:   (MOVE-ROBOT ROB1 R1 R2) [1]
+7:   (SERVE ROB1 P1 HL R2) [1]
+7:   (SERVE ROB1 P3 HR R2) [1]
+8:   (MOVE-ROBOT ROB1 R2 R1) [1]
+9:   (FULFILL-CUP ROB1 R1 HL TM) [1]
+9:   (FULFILL-CUP ROB1 R1 HR TM) [1]
+10:   (MOVE-ROBOT ROB1 R1 PAS) [1]
+11:   (EXCHANGE-FULL ROB1 ROB2 PAS HL HR) [1]
+12:   (MOVE-ROBOT ROB2 PAS R3) [1]
+13:   (SERVE ROB2 P2 HR R3) [1]
+14:   (MOVE-ROBOT ROB2 R3 PAS) [1]
+15:   (EXCHANGE-FULL ROB1 ROB2 PAS HR HL) [1]
+16:   (MOVE-ROBOT ROB2 PAS R4) [1]
+17:   (SERVE ROB2 P4 HL R4) [1]
